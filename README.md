@@ -11,5 +11,6 @@ cd /into/this/directory
 ```
 
 you'll now see a bash terminal inside our container, and you can continue with the lamdera guide.
+
 After running `lamdera init` you should see a `src` directory with Elm files on your host machine. If you don't, double check your mounting things
-correctly in `bash.sh`
+correctly in `bash.sh`. Also note if you want to use a non-default port for `lamdera live`, you'll need to update the `bash.sh` script accordingly
