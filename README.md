@@ -1,3 +1,5 @@
+I ran into some issues resolving Elm dependencies when getting started with lamdera. I'm using Windows 10 + WSL/Ubuntu, this workaround was only tested on such a setup
+
 This assumes you have docker ready to go
 
 ```
