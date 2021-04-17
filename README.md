@@ -4,10 +4,10 @@ This assumes you have docker ready to go
 cd /into/this/directory
 
 # build the lamdera-dev:latest image
-./deploy/build.sh
+./shell-scripts/build.sh
 
 # run bash inside a container, note my script has ~/code/ assumed, you can either conform to that or change that directory
-./deploy/bash.sh
+./shell-scripts/bash.sh
 ```
 
 you'll now see a bash terminal inside our container, and you can continue with the lamdera guide.
